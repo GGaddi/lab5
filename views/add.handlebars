@@ -19,6 +19,7 @@
 </head>
 
 <div class = "container">
+	<a href ="/">
 <body>
 	{{#each friends}}
 	<h1>My HCI Friends</h1>
@@ -28,6 +29,8 @@
 		<p> {{description}} </p>
 	</div>
 	{{/each}}
+
+	<h3> Friend Added </h3>
 
 	<form id="addFriendForm" role="form" method="get" action="/add">
 		<h3>Add a friend</h3>
@@ -47,5 +50,6 @@
 	<script src="/js/hci-friends.js"></script>
 
 </body>
+</a>
 </div>
 </html>
